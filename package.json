@@ -1,0 +1,50 @@
+{
+  "name": "svg-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "blk": "^3.1.1",
+    "color": "^0.10.1",
+    "colors.css": "^2.3.0",
+    "cra-template": "1.1.2",
+    "eslint-config-radtket": "^1.0.22",
+    "json-loader": "^0.5.2",
+    "lodash": "^3.10.0",
+    "node-libs-browser": "^0.5.2",
+    "path-ast": "^1.1.0",
+    "postcss-basscss": "^0.2.2",
+    "prop-types": "^15.7.2",
+    "qs": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "rgx": "^0.2.4",
+    "simple-modular-scale": "^1.0.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "radtket"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
