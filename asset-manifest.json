@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/svg-editor/static/css/main.e35ee2e9.chunk.css",
+    "main.js": "/svg-editor/static/js/main.17978ca4.chunk.js",
+    "main.js.map": "/svg-editor/static/js/main.17978ca4.chunk.js.map",
+    "runtime-main.js": "/svg-editor/static/js/runtime-main.3c134b87.js",
+    "runtime-main.js.map": "/svg-editor/static/js/runtime-main.3c134b87.js.map",
+    "static/js/2.3aee30af.chunk.js": "/svg-editor/static/js/2.3aee30af.chunk.js",
+    "static/js/2.3aee30af.chunk.js.map": "/svg-editor/static/js/2.3aee30af.chunk.js.map",
+    "static/js/3.a7a7e3e6.chunk.js": "/svg-editor/static/js/3.a7a7e3e6.chunk.js",
+    "static/js/3.a7a7e3e6.chunk.js.map": "/svg-editor/static/js/3.a7a7e3e6.chunk.js.map",
+    "index.html": "/svg-editor/index.html",
+    "static/css/main.e35ee2e9.chunk.css.map": "/svg-editor/static/css/main.e35ee2e9.chunk.css.map",
+    "static/js/2.3aee30af.chunk.js.LICENSE.txt": "/svg-editor/static/js/2.3aee30af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c134b87.js",
+    "static/js/2.3aee30af.chunk.js",
+    "static/css/main.e35ee2e9.chunk.css",
+    "static/js/main.17978ca4.chunk.js"
+  ]
+}
