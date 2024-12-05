@@ -2,13 +2,16 @@
   "name": "svg-editor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://radtket.github.io/svg-editor",
   "dependencies": {
+    "@babel/core": "^7.26.0",
     "babel-eslint": "^10.1.0",
     "blk": "^3.1.1",
     "color": "^0.10.1",
     "colors.css": "^2.3.0",
     "cra-template": "1.1.2",
     "eslint-config-radtket": "^1.0.22",
+    "gh-pages": "^6.2.0",
     "json-loader": "^0.5.2",
     "lodash": "^3.10.0",
     "node-libs-browser": "^0.5.2",
@@ -24,10 +27,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
-    "build": "react-scripts build",
+    "start": "SKIP_PREFLIGHT_CHECK=true DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "SKIP_PREFLIGHT_CHECK=true DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "parser": "babel-eslint",
